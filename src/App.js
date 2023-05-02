@@ -126,6 +126,9 @@ function App() {
           <h3>Nutrition</h3>
           <Nutrition /> 
         </div>     
+        <div className='email cardCs'>
+          <a id="emailMe" href="arcinie3@msu.edu">Set new health goals</a>
+        </div>
       </header>
     </div>
   );

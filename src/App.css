@@ -27,7 +27,7 @@
   min-height: 100vh;
   display: grid;
   grid-template-columns: 40% 50%;
-  grid-template-rows: 37% 32%;
+  grid-template-rows: 37% 32% 10%;
   column-gap: 30px;
   row-gap: 30px;
   text-align: left;
@@ -62,4 +62,10 @@
 .nutrition {
   grid-column: 1;
   grid-row: 2;
+}
+
+.email {
+  grid-column: 1;
+  grid-row: 3;
+  color: black;
 }
